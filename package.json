@@ -1,0 +1,13 @@
+{
+  "name": "mad-kit",
+  "version": "1.0.0",
+  "description": "A modular application development kit",
+  "main": "src/index.ts",
+  "author": "Pendar Ghalamchi",
+  "license": "MIT",
+  "private": false,
+  "devDependencies": {
+    "jest": "^24.8.0",
+    "typescript": "^3.5.3"
+  }
+}

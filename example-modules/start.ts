@@ -17,6 +17,10 @@ defineApplication({
     {
       path: '/login',
       registration.pages.login
+    },
+    {
+      path: '/forgotPassword',
+      registration.pages.forgotPassword
     }
   ]
 });

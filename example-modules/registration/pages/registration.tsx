@@ -1,5 +1,5 @@
-import React from 'react';
-import renderPage from 'mad';
+import React from '../../../lib/node_modules/react';
+import renderPage from '../../../lib/node_modules/mad';
 import { MessagesTypes } from '../interface';
 
 renderPage('registration', ({ targetElement, sendMessage }) => {

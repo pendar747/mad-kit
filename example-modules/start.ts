@@ -1,4 +1,4 @@
-import { defineApplication } from 'mad';
+import { defineApplication } from '../lib/node_modules/mad';
 import registration from './registration';
 import profile from './profile';
 import persistance from './persistance';

@@ -1,4 +1,4 @@
-import { configureModule } from 'mad';
+import { configureModule } from '../../lib/node_modules/mad';
 
 interface ConsumedResources {
   username: string,

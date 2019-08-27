@@ -1,4 +1,4 @@
-import { configureModule } from 'mad';
+import { configureModule } from '../../lib/node_modules/mad';
 import registration from './pages/registration';
 import login from './pages/login';
 

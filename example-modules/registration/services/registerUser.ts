@@ -1,4 +1,4 @@
-import createService from 'mad';
+import createService from '../../../lib/node_modules/mad';
 import { MessagesTypes } from '..';
 
 const service = ({ persistance, sendMessage }, { username, password }) => {

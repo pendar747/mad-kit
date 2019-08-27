@@ -1,12 +1,13 @@
-import React from 'react';
-import renderPage from 'mad';
+import React from '../../../lib/node_modules/react';
+import renderPage from '../../../lib/node_modules/mad';
 
-renderPage('profile', ({ targetElement }, { username, avatar }) => {
+renderPage('profile', ({ injectDom }, { username, avatar }) => {
   const component = (
     <div>
       <img src={avatar} alt="avatar" />
       <h3>{username}</h3>
     </div>
   );
-  return React.render(component, targetElement);
+  const element = React.render(component);
+  injectDom(element);
 });
